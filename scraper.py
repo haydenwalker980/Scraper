@@ -47,7 +47,7 @@ def everything_between(text,begin,end):
     return text[idx1+len(begin):idx2].strip()
 
 
-searchURL = "http://www.youinweb.it/profiles_it/20044/visim-srl_370421.htm"
+searchURL = "http://coolmedia.windevstudios.cf"
 
 html = scraperwiki.scrape(searchURL)
 root = lxml.html.fromstring(html)
